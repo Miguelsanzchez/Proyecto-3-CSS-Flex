@@ -85,58 +85,25 @@ a {
   min-width: 0;
 }
 @media (max-width: 720px) {
-  .nav-list {
-    display: none; /* oculta menú links */
-  }
-  .right-space {
-    display: none;
-  }
-
   .menu-burguer {
     display: flex;
-    font-size: 30px;
-    width: 40px;
-    height: 40px;
     align-items: center;
     justify-content: center;
     cursor: pointer;
+    font-size: 30px;
+    width: 40px;
+    height: 40px;
     color: white;
-    order: 2;
-    margin: 0 auto;
   }
 
   .imagen-responsive {
     display: block;
-    max-height: 50px;
-    order: 3;
-    flex: 0 0 auto;
   }
-
-  /* Reordenar items en el flex container */
-  .content-header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
-
-  .logo-container {
-    flex: 0 0 auto; /* solo lo necesario */
-    order: 1; /* izquierda */
-    justify-content: flex-start;
+  .nav-list {
+    display: none;
   }
 }
 
-@media (max-width: 375px) {
-  .menu-burguer {
-    font-size: 25px; /* tamaño un poco más pequeño */
-    width: 30px;
-    height: 35px;
-  }
-
-  .imagen-responsive img {
-    max-height: 40px; /* reducir tamaño del logo responsive */
-  }
-}
 .main {
   display: flex;
   min-height: 100vh;
@@ -213,10 +180,10 @@ body {
     0 0 20px rgba(255, 255, 255, 0.8), 0 0 30px rgba(255, 255, 255, 1);
 }
 .button {
-  background: #0a3d5a; /* Azul oscuro base */
-  border: 2px solid #3a9cb8; /* Borde azul claro */
-  color: #ffd700; /* Texto amarillo dorado */
-  font-family: 'frizquadrata'; /* Fuente básica */
+  background: #0a3d5a;
+  border: 2px solid #3a9cb8;
+  color: #ffd700;
+  font-family: 'frizquadrata';
   font-weight: bold;
   padding: 15px 30px;
   border-radius: 3px;
@@ -232,12 +199,12 @@ body {
 /* SECCIÓN NOTICIAS*/
 .news h2 {
   font-size: 2rem;
-  margin-top: 400px;
+  margin-top: 200px;
   margin-left: auto;
   margin-bottom: 1rem;
-  color: #ffd700; /* Dorado */
+  color: #ffd700;
   font-family: 'frizquadrata';
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); /* Sombra oscura que lo hace resaltar */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
   border-radius: 4px;
 }
 .noticia1 {
@@ -276,7 +243,7 @@ body {
 .card-content {
   flex: 1 1 180px;
   padding: 10px;
-  max-height: 600px; /*altura minima para todas las tarjetas*/
+  max-height: 600px;
   min-height: auto;
   border: 1px solid black;
   height: 100%;
