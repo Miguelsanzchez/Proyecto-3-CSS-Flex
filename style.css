@@ -216,7 +216,11 @@ body {
   color: #ffd700;
 }
 .group-cards h3 {
-  color: #3a9cb8;
+    font-family: 'frizquadrata';
+  color: rgba(0, 180, 255, 0.9);
+  text-shadow: 0 0 8px rgba(0, 180, 255, 0.4);
+  font-family: 'Arial', sans-serif;
+  margin: 20px;
 }
 
 .footer-wow {
