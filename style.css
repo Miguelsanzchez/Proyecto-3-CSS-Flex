@@ -208,6 +208,8 @@ body {
   max-width: 900px;
   margin: 0 0 5px;
   overflow-x: hidden;
+  font-family: 'frizquadrata';
+  
 }
 
 .group-cards a {
